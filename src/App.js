@@ -1,23 +1,426 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Badge, Col, Container, List, Row } from "reactstrap";
+import {
+  Linkedin,
+  GeoAltFill,
+  PersonFill,
+  Fire,
+  BriefcaseFill,
+  FolderFill,
+  Bullseye,
+  Tools,
+  People,
+  Link45deg,
+} from "react-bootstrap-icons";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Row xs="1" sm="1" md="2">
+          <Col className="bg-light py-4">
+            <section className="text-center">
+              <h1
+                style={{
+                  fontSize: "1.8rem",
+                }}
+              >
+                Sweeta Rebero
+              </h1>
+              <p>Senior frontend developer</p>
+              <div>
+                <img
+                  className="my-3"
+                  alt="profile of sweeta rebero"
+                  src="https://media.licdn.com/dms/image/C5603AQGo8BdvUS3LlQ/profile-displayphoto-shrink_200_200/0/1617011813867?e=1706745600&v=beta&t=OJviRHG2VV8zQ5jmYy2MPSvz54VkuEBhgU3xKZYwZJk"
+                />
+              </div>
+              <div>
+                <GeoAltFill />
+                <a
+                  href="https://www.google.com/maps/place/Sydney+NSW"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Sydney
+                </a>{" "}
+                <Linkedin />{" "}
+                <a
+                  href="https://www.linkedin.com/in/sweetarebero/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  sweetarebero
+                  <Link45deg
+                    style={{
+                      verticalAlign: "text-bottom",
+                    }}
+                  />
+                </a>
+              </div>
+            </section>
+            <section className="my-4">
+              <h2
+                className="text-center py-1"
+                style={{
+                  fontSize: "1rem",
+                  borderTop: "1px solid #000",
+                  borderBottom: "1px solid #000",
+                }}
+              >
+                <PersonFill
+                  style={{
+                    verticalAlign: "text-bottom",
+                  }}
+                />{" "}
+                Profile
+              </h2>
+              <p>
+                I am passionate about frontend technology, love crafting great
+                products that solve problems for somebody, simple enough for
+                anyone to use and accessible to everyone.
+              </p>
+              <p>
+                <strong>
+                  I care about making the customers happy, well written test
+                  cases, team work and code quality.
+                </strong>
+              </p>
+            </section>
+            <section className="my-4">
+              <h2
+                className="text-center py-1"
+                style={{
+                  fontSize: "1rem",
+                  borderTop: "1px solid #000",
+                  borderBottom: "1px solid #000",
+                }}
+              >
+                <Fire
+                  style={{
+                    verticalAlign: "text-top",
+                  }}
+                />{" "}
+                Skills
+              </h2>
+              <p>
+                React, Redux(RTK), Typescript, Graphql, Styled Components,
+                SASS/LESS, Material UI, GIT
+              </p>
+              <p>Jest, React testing library, Cypress, BDD/TDD</p>
+              <p>Github, Bitbucket</p>
+              <p>Responsive websites, Accessibility</p>
+            </section>
+            <section className="my-4">
+              <h2
+                className="text-center py-1"
+                style={{
+                  fontSize: "1rem",
+                  borderTop: "1px solid #000",
+                  borderBottom: "1px solid #000",
+                }}
+              >
+                <BriefcaseFill
+                  style={{
+                    verticalAlign: "text-bottom",
+                  }}
+                />{" "}
+                Professional Experience
+              </h2>
+              <List>
+                <li>
+                  I have worked mainly in Financial industries like banking,
+                  insurance and loan applications. But also have experience
+                  working in hotel, healthcare industry
+                </li>
+                <li>
+                  I also get involved in end to end design solution discussions
+                </li>
+                <li>I am well versed in agile methodologies</li>
+                <li>
+                  Not only frontend development, as part of my role I also
+                  deploy applications using ci-cd pipelines such as Bamboo,
+                  Azure and AWS
+                </li>
+                <li>
+                  As part of my role I peer review code of other developers to
+                  ensure code quality
+                </li>
+                <li>
+                  I also have interviewing experience and have mentored/trained
+                  juniors
+                </li>
+              </List>
+            </section>
+          </Col>
+          <Col className="bg-light py-2">
+            <section>
+              <h2
+                className="text-center py-1"
+                style={{
+                  fontSize: "1rem",
+                  borderTop: "1px solid #000",
+                  borderBottom: "1px solid #000",
+                }}
+              >
+                <FolderFill
+                  style={{
+                    verticalAlign: "text-bottom",
+                  }}
+                />{" "}
+                Projects (last 5)
+              </h2>
+              <div>
+                <p>
+                  <a
+                    href="https://www.insuranceonline.nrma.com.au/business-insurance-quote/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Badge>IAG</Badge>{" "}
+                    <Link45deg
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />
+                  </a>
+                  <p>
+                    Customer facing insurance application for small to medium
+                    enterprises
+                  </p>
+                </p>
+
+                <List>
+                  <li>
+                    <Tools
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Tech overview: React, Redux, Typescript, Bamboo pipelines,
+                    NR scripts for logs, Git, Bitbucket, Single page application
+                  </li>
+                  <li>
+                    <People
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Team size: 10
+                  </li>
+                  <li>
+                    <Bullseye
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Goal: Maintain existing application, build new features and
+                    products. Monitor production logs and fix incidents raised.
+                    Fortnightly deployment. Participate in{" "}
+                    <b>architectural solution designing</b>.
+                  </li>
+                </List>
+              </div>
+
+              <div>
+                <p>
+                  <a
+                    href="https://www.qbe.com/au/quote/business/business-details"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Badge>QBE</Badge>{" "}
+                    <Link45deg
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />
+                  </a>
+                  <p>
+                    Customer facing insurance application for small to medium
+                    enterprises (same product as IAG)
+                  </p>
+                </p>
+
+                <List>
+                  <li>
+                    <Tools
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Tech overview: React, Redux(RTK), Typescript, Azure
+                    pipelines, Git, Azure repos, Single page application
+                  </li>
+                  <li>
+                    <People
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Team size: 15
+                  </li>
+                  <li>
+                    <Bullseye
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Goal: Greenfield project. Building brand new business
+                    insurance web application completely revamp tech and
+                    customer experience. Also contribute to <b>design system</b>
+                    components.Participate in{" "}
+                    <b>architectural solution designing</b>.
+                  </li>
+                </List>
+              </div>
+
+              <div>
+                <p>
+                  <a
+                    href="https://application.prospa.com/qualification/welcome"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Badge href="">PROSPA</Badge>{" "}
+                    <Link45deg
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />
+                  </a>
+                  <p>Customer facing loan application for small businesses</p>
+                </p>
+                <List>
+                  <li>
+                    <Tools
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Tech overview: React, Redux, Graphql, Typescript, Azure
+                    pipelines, Git, Github, Identity Server, Single page
+                    application
+                  </li>
+                  <li>
+                    <People
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Team size: 10
+                  </li>
+                  <li>
+                    <Bullseye
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Goal: Greenfield and existing projects to support online
+                    loan applications for small businesses for direct customers
+                    and partners. Also participate in hackathons and build new
+                    ideas for the business that generate higher
+                    revenue.Participate in{" "}
+                    <b>architectural solution designing</b>.
+                  </li>
+                </List>
+              </div>
+
+              <div>
+                <p>
+                  <Badge href="">RABOBANK</Badge>{" "}
+                  <Link45deg
+                    style={{
+                      verticalAlign: "text-bottom",
+                    }}
+                  />
+                  <p>Customer facing banking application for framers</p>
+                </p>
+                <List>
+                  <li>
+                    <Tools
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Tech overview: Angular.js, Jenkins, Git, Github, BDD, Single
+                    page application
+                  </li>
+                  <li>
+                    <People
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Team size: 16
+                  </li>
+                  <li>
+                    <Bullseye
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Goal: To build a Greenfield banking application with new
+                    tech stack fixing existing system's limitations.{" "}
+                    <b>Behavior driven development</b> using cucumber
+                    integration test cases.
+                  </li>
+                </List>
+              </div>
+
+              <div>
+                <p>
+                  <a
+                    href="https://www.macquarie.com.au/digital-banking/online-banking.html"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Badge href="">MACQUARIE BANK</Badge>{" "}
+                    <Link45deg
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />
+                  </a>
+                  <p>
+                    Customer facing application featuring all the products of
+                    Macquarie bank
+                  </p>
+                </p>
+                <List>
+                  <li>
+                    <Tools
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Tech overview: Angular.js, WEM(Web experience manager), Git,
+                    Bitbucket, Gulp
+                  </li>
+                  <li>
+                    <People
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Team size: 8
+                  </li>
+                  <li>
+                    <Bullseye
+                      style={{
+                        verticalAlign: "text-bottom",
+                      }}
+                    />{" "}
+                    Goal: Maintain existing web application and build new
+                    feature based on latest product release. Building{" "}
+                    <b>Rich user interfaces</b>.
+                  </li>
+                </List>
+              </div>
+            </section>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
