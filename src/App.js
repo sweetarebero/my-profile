@@ -104,8 +104,8 @@ function App() {
                 Skills
               </h2>
               <p>
-                React, Redux(RTK), Typescript, Graphql, Styled Components,
-                SASS/LESS, Material UI, GIT
+                React, React hooks, React Context, Redux(RTK), Typescript,
+                Graphql, Styled Components, SASS/LESS, Material UI, GIT
               </p>
               <p>Jest, React testing library, Cypress, BDD/TDD</p>
               <p>Github, Bitbucket</p>
@@ -157,12 +157,13 @@ function App() {
               </h2>
               <List>
                 <li>
-                  I have worked mainly in Financial industries like banking,
-                  insurance and loan applications. But also have experience
-                  working in hotel, healthcare industry
+                  I am a 2008 Graduate in Bachelor of Engineer (Computer
+                  Science)
                 </li>
                 <li>
-                  I also get involved in end to end design solution discussions
+                  I have worked mainly in Financial industries like banking,
+                  insurance and online loan applications. But also have
+                  experience in hotel, healthcare industry
                 </li>
                 <li>
                   I have worked on both public and private web applications. I
@@ -175,16 +176,15 @@ function App() {
                   Azure and AWS
                 </li>
                 <li>
+                  I also get involved in end to end design solution discussions
+                </li>
+                <li>
                   As part of my role I peer review code of other developers to
                   ensure code quality
                 </li>
                 <li>
                   I also have interviewing experience and have mentored/trained
                   juniors
-                </li>
-                <li>
-                  I am a 2008 Graduate of Bachelor of Engineer in Computer
-                  Science
                 </li>
               </List>
             </section>
@@ -222,7 +222,7 @@ function App() {
                   </a>
                   <p>
                     Customer facing insurance application for small to medium
-                    enterprises
+                    enterprises.
                   </p>
                 </p>
 
@@ -274,7 +274,7 @@ function App() {
                   </a>
                   <p>
                     Customer facing insurance application for small to medium
-                    enterprises (same product as IAG)
+                    enterprises (same product as IAG).
                   </p>
                 </p>
 
@@ -302,10 +302,10 @@ function App() {
                         verticalAlign: "text-bottom",
                       }}
                     />{" "}
-                    Goal: Greenfield project. Building brand new business
+                    Goal: <b>Greenfield</b> project. Building brand new business
                     insurance web application completely revamp tech and
-                    customer experience. Also contribute to <b>design system</b>
-                    components.Participate in{" "}
+                    customer experience. Also contribute to <b>design system</b>{" "}
+                    components. Participate in{" "}
                     <b>architectural solution designing</b>.
                   </li>
                 </List>
@@ -325,7 +325,7 @@ function App() {
                       }}
                     />
                   </a>
-                  <p>Customer facing loan application for small businesses</p>
+                  <p>Customer facing loan application for small businesses.</p>
                 </p>
                 <List>
                   <li>
@@ -352,12 +352,12 @@ function App() {
                         verticalAlign: "text-bottom",
                       }}
                     />{" "}
-                    Goal: Greenfield and existing projects to support online
-                    loan applications for small businesses for direct customers
-                    and partners. Also participate in hackathons and build new
-                    ideas for the business that generate higher
-                    revenue.Participate in{" "}
-                    <b>architectural solution designing</b>.
+                    Goal: <b>Greenfield</b> and existing projects to support
+                    online loan applications for small businesses for direct
+                    customers and partners. Also participate in hackathons and
+                    build new ideas for the business that generate higher
+                    revenue. Involved in <b>architectural solution designing</b>
+                    .
                   </li>
                 </List>
               </div>
@@ -365,12 +365,7 @@ function App() {
               <div>
                 <p>
                   <Badge href="">RABOBANK</Badge>{" "}
-                  <Link45deg
-                    style={{
-                      verticalAlign: "text-bottom",
-                    }}
-                  />
-                  <p>Customer facing banking application for framers</p>
+                  <p>Customer facing banking application for framers.</p>
                 </p>
                 <List>
                   <li>
@@ -396,8 +391,8 @@ function App() {
                         verticalAlign: "text-bottom",
                       }}
                     />{" "}
-                    Goal: To build a Greenfield banking application with new
-                    tech stack fixing existing system's limitations.{" "}
+                    Goal: To build a <b>Greenfield</b> banking application with
+                    new tech stack fixing existing system's limitations.{" "}
                     <b>Behavior driven development</b> using cucumber
                     integration test cases.
                   </li>
@@ -420,7 +415,7 @@ function App() {
                   </a>
                   <p>
                     Customer facing application featuring all the products of
-                    Macquarie bank
+                    Macquarie bank.
                   </p>
                 </p>
                 <List>
