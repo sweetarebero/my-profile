@@ -42,7 +42,7 @@ function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Sydney
+                  Sydney(Australian citizen)
                 </a>{" "}
                 <Linkedin />{" "}
                 <a
@@ -110,6 +110,34 @@ function App() {
               <p>Jest, React testing library, Cypress, BDD/TDD</p>
               <p>Github, Bitbucket</p>
               <p>Responsive websites, Accessibility</p>
+              <p>
+                <b>Authored Medium Blogs:</b>{" "}
+                <a
+                  href="https://medium.com/prospa-engineering/web-accessibility-5a423abb80a4"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Web accessibility
+                  <Link45deg
+                    style={{
+                      verticalAlign: "text-bottom",
+                    }}
+                  />
+                </a>
+                ,{" "}
+                <a
+                  href="https://medium.com/prospa-engineering/why-mobile-first-8141d8103443"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Mobile first
+                  <Link45deg
+                    style={{
+                      verticalAlign: "text-bottom",
+                    }}
+                  />
+                </a>
+              </p>
             </section>
             <section className="my-4">
               <h2
@@ -136,10 +164,14 @@ function App() {
                 <li>
                   I also get involved in end to end design solution discussions
                 </li>
+                <li>
+                  I have worked on both public and private web applications. I
+                  understand the JWT token based authorization using OAuth
+                </li>
                 <li>I am well versed in agile methodologies</li>
                 <li>
                   Not only frontend development, as part of my role I also
-                  deploy applications using ci-cd pipelines such as Bamboo,
+                  deploy applications using CI-CD pipelines such as Bamboo,
                   Azure and AWS
                 </li>
                 <li>
@@ -149,6 +181,10 @@ function App() {
                 <li>
                   I also have interviewing experience and have mentored/trained
                   juniors
+                </li>
+                <li>
+                  I am a 2008 Graduate of Bachelor of Engineer in Computer
+                  Science
                 </li>
               </List>
             </section>
