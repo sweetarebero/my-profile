@@ -12,6 +12,7 @@ import {
   People,
   Link45deg,
 } from "react-bootstrap-icons";
+import profilePic from "./profile-pic.jpeg";
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
                   height="50%"
                   className="my-3"
                   alt="profile of sweeta rebero"
-                  src="https://media.licdn.com/dms/image/D5635AQERuyYlGmoqXA/profile-framedphoto-shrink_400_400/0/1701392863407?e=1707357600&v=beta&t=6xhwwzNnhOloqh4k8Qx_zZ3v0sM_kF7apzp6IUvvnQw"
+                  src={profilePic}
                 />
               </div>
               <div>
